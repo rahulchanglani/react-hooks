@@ -4,7 +4,9 @@ import './index.css';
 import App from './App';
 import StateTut from './hooks/StateTut';
 import ReducerTut from './hooks/ReducerTut';
+import RefTut from './hooks/RefTut';
 import EffectTut from './hooks/EffectTut';
+import LayoutEffectTut from './hooks/LayoutEffectTut';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
@@ -12,7 +14,9 @@ ReactDOM.render(
     {/* <App /> */}
     {/* <StateTut /> */}
     {/* <ReducerTut /> */}
+    {/* <RefTut /> */}
     <EffectTut />
+    {/* <LayoutEffectTut /> */}
   </React.StrictMode>,
   document.getElementById('root')
 );

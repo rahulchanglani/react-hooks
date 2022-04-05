@@ -8,9 +8,13 @@ const RefTut = () => {
         inputRef.current.focus();
     }
 
+    const onInputChange = () => {
+        inputRef.current.value = inputRef.current.value.toUpperCase();
+    }
+
     return <div>
         <h1>Pedro</h1>
-        <input type="text" placeholder="Ex.." onChange={onChange} ref={inputRef} />
+        <input type="text" placeholder="Ex.." onChange={onInputChange} ref={inputRef} />
         <button onClick={btnClick}> Click here </button>
     </div>
 };
