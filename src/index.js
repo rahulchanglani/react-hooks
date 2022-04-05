@@ -8,6 +8,7 @@ import RefTut from './hooks/RefTut';
 import EffectTut from './hooks/EffectTut';
 import LayoutEffectTut from './hooks/LayoutEffectTut';
 import reportWebVitals from './reportWebVitals';
+import TransitionTut from './hooks/TransitionTut';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -16,7 +17,8 @@ ReactDOM.render(
     {/* <ReducerTut /> */}
     {/* <RefTut /> */}
     {/* <EffectTut /> */}
-    <LayoutEffectTut />
+    {/* <LayoutEffectTut /> */}
+    <TransitionTut />
   </React.StrictMode>,
   document.getElementById('root')
 );
