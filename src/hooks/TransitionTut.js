@@ -27,10 +27,10 @@ const TransitionTut = () => {
     const filteredProducts = filterProducts(filterTerm);
 
     function updateFilterHandler(event) {
-        // startTransition(() => {
-        //   setFilterTerm(event.target.value);
-        // });
-        setFilterTerm(event.target.value);
+        startTransition(() => {
+          setFilterTerm(event.target.value);
+        });
+        // setFilterTerm(event.target.value);
     }
 
     return (
