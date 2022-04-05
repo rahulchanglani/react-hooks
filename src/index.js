@@ -15,8 +15,8 @@ ReactDOM.render(
     {/* <StateTut /> */}
     {/* <ReducerTut /> */}
     {/* <RefTut /> */}
-    <EffectTut />
-    {/* <LayoutEffectTut /> */}
+    {/* <EffectTut /> */}
+    <LayoutEffectTut />
   </React.StrictMode>,
   document.getElementById('root')
 );
