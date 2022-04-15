@@ -3,7 +3,7 @@ import Child from "./Child";
 
 export default function CallBackTutorial() {
   const [toggle, setToggle] = useState(false);
-  const [data, setData] = useState("Yo, pls sub to the channel!");
+  const [data, setData] = useState("Callback string in Parent ");
 
   const returnComment = useCallback(
     (name) => {

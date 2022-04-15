@@ -7,7 +7,7 @@ export default function Child({ returnComment }) {
 
   return (
     <div>
-        {returnComment("HELLO")}
+        {returnComment("HELLO from child")}
     </div>
   );
 }
