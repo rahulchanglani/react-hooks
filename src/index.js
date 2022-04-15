@@ -1,15 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import reportWebVitals from './reportWebVitals';
 import App from './App';
 import StateTut from './hooks/StateTut';
 import ReducerTut from './hooks/ReducerTut';
 import RefTut from './hooks/RefTut';
 import EffectTut from './hooks/EffectTut';
 import LayoutEffectTut from './hooks/LayoutEffectTut';
-import reportWebVitals from './reportWebVitals';
 import TransitionTut from './hooks/TransitionTut';
 import ImperativeHandleTut from './hooks/ImperativeHandleTut';
+import ContextTut from './hooks/ContextTut';
+import CallbackTut from './hooks/CallbackTut';
+import MemoTut from './hooks/MemoTut';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -20,7 +23,10 @@ ReactDOM.render(
     {/* <EffectTut /> */}
     {/* <LayoutEffectTut /> */}
     {/* <TransitionTut /> */}
-    <ImperativeHandleTut />
+    {/* <ImperativeHandleTut /> */}
+    <ContextTut />
+    {/* <CallbackTut /> */}
+    {/* <MemoTut /> */}
   </React.StrictMode>,
   document.getElementById('root')
 );
