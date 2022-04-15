@@ -8,6 +8,10 @@ export default function CallBackTutorial() {
   const [toggle, setToggle] = useState(false);
   const [data, setData] = useState("Callback string in Parent ");
 
+//   const returnComment = () => {
+//       return data;
+//     };
+  
   const returnComment = useCallback(
     (name) => {
       return data + name;
