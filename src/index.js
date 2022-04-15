@@ -9,8 +9,8 @@ import RefTut from './hooks/UseRef/RefTut';
 import EffectTut from './hooks/UseEffect/EffectTut';
 import LayoutEffectTut from './hooks/UseLayoutEffect/LayoutEffectTut';
 import TransitionTut from './hooks/UseTransitionUseDeferredValue/TransitionTut';
-import ImperativeHandleTut from './hooks/ImperativeHandleTut';
-import ContextTut from './hooks/ContextTut';
+import ImperativeHandleTut from './hooks/UseImperativeHandle/ImperativeHandleTut';
+import ContextTut from './hooks/UseContext/ContextTut';
 import CallbackTut from './hooks/UseCallback/CallbackTut';
 import MemoTut from './hooks/UseMemo/MemoTut';
 
