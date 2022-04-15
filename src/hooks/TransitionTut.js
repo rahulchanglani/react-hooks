@@ -36,7 +36,7 @@ const TransitionTut = () => {
     return (
         <div id="app">
             <input type="text" onChange={updateFilterHandler} />
-            {/* {isPending && <p style={{color: 'white'}}>Updating List...</p>} */}
+            {isPending && <p style={{color: 'white'}}>Updating List...</p>}
             <ProductList products={filteredProducts} />
         </div>
     );

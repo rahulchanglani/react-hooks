@@ -9,6 +9,7 @@ import EffectTut from './hooks/EffectTut';
 import LayoutEffectTut from './hooks/LayoutEffectTut';
 import reportWebVitals from './reportWebVitals';
 import TransitionTut from './hooks/TransitionTut';
+import ImperativeHandleTut from './hooks/ImperativeHandleTut';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -18,7 +19,8 @@ ReactDOM.render(
     {/* <RefTut /> */}
     {/* <EffectTut /> */}
     {/* <LayoutEffectTut /> */}
-    <TransitionTut />
+    {/* <TransitionTut /> */}
+    <ImperativeHandleTut />
   </React.StrictMode>,
   document.getElementById('root')
 );
