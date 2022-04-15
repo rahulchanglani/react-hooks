@@ -11,8 +11,8 @@ import LayoutEffectTut from './hooks/UseLayoutEffect/LayoutEffectTut';
 import TransitionTut from './hooks/UseTransitionUseDeferredValue/TransitionTut';
 import ImperativeHandleTut from './hooks/UseImperativeHandle/ImperativeHandleTut';
 import ContextTut from './hooks/UseContext/ContextTut';
-import CallbackTut from './hooks/UseCallback/CallbackTut';
 import MemoTut from './hooks/UseMemo/MemoTut';
+import CallbackTut from './hooks/UseCallback/CallbackTut';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -25,8 +25,8 @@ ReactDOM.render(
     {/* <TransitionTut /> */}
     {/* <ImperativeHandleTut /> */}
     {/* <ContextTut /> */}
-    <MemoTut />
-    {/* <CallbackTut /> */}
+    {/* <MemoTut /> */}
+    <CallbackTut />
   </React.StrictMode>,
   document.getElementById('root')
 );

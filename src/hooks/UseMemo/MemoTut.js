@@ -2,6 +2,7 @@ import axios from "axios";
 import { useEffect, useState, useMemo } from "react";
 
 // used for memoized function to reduce algorithmic compution time again
+// used to store value from memoized fn
 
 export default function MemoTutorial() {
   const [data, setData] = useState(null);
